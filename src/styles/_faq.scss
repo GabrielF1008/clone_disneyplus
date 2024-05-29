@@ -39,11 +39,14 @@
                 transition: height, .5s ease;
 
                 &__group {
-                    padding: 16px 48px;
-                    transition: height, .5s ease;
+                    padding: 24px 24px 0 24px;
 
                     &__item {
-                        padding: 14px;
+                        margin-bottom:12px ;
+
+                        &--link {
+                            color: #fff;
+                        }
                     }
                 }
             }
@@ -55,6 +58,7 @@
 
                 .faq__questions__item__answer {
                     height: auto;
+                    padding-bottom: 24px;
                     transition: height, .5s ease;
                 }
             }
